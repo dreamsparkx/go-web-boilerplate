@@ -1,0 +1,7 @@
+{{template "base" .}}
+
+{{define "content"}}
+    <h1>Hello World</h1>
+    <img src="/static/images/gopher.jpg">
+    <input type="hidden" name="csrf_token" value="{{.CSRFToken}}"/>
+{{end}}
